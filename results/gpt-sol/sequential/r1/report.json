@@ -1,0 +1,2135 @@
+{
+  "workers": 1,
+  "elapsed_seconds": 24245.44,
+  "parallelism": 1.0,
+  "merges": 0,
+  "merge_conflicts": 0,
+  "merge_conflict_files": 0,
+  "merges_failed": 0,
+  "merge_agent_seconds": 0,
+  "rate_limit_hits": 14,
+  "rate_limit_wait_seconds": 42492,
+  "infra_failures": 0,
+  "infra_wait_seconds": 0,
+  "uncounted_calls": 14,
+  "uncounted_seconds": 790.57,
+  "uncounted_tokens": 0,
+  "interruptions": 0,
+  "cli_versions": [
+    "codex-cli 0.164.0"
+  ],
+  "phases_delegated": 0,
+  "subagents_started": null,
+  "benchmark_version": 1,
+  "profile": "gpt-sol",
+  "track": "sequential",
+  "run_id": "r1",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.164.0",
+  "model": "gpt-6.1-sol",
+  "reported_models": [],
+  "isolation": "container",
+  "harness_commit": "f9d460d8fd721028097b2b8467d3a4bc3140c2cf",
+  "host": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "cpu_count": 12,
+    "cpu_model": "AMD Ryzen 5 7500F 6-Core Processor",
+    "ram_gb": 31.0
+  },
+  "created": "2026-11-20T08:22:11.617894+00:00",
+  "finished": true,
+  "tasks_total": 28,
+  "status_counts": {
+    "PENDING": 0,
+    "ACTIVE": 0,
+    "DONE": 28,
+    "BLOCKED": 0
+  },
+  "blocked_review_gaps": 0,
+  "blocked_errors": 0,
+  "completed_ratio": 1.0,
+  "first_cycle_pass_ratio": 1.0,
+  "phases_attempted": 84,
+  "phases_failed": 0,
+  "failure_classes": {},
+  "operator_interventions": 0,
+  "evaluation": {
+    "label": "final",
+    "commit": "970036082c16677fb62bba23426f77b798b69e76",
+    "eval_version": 6,
+    "passed": 41,
+    "due": 42,
+    "total": 42,
+    "categories": {
+      "contract": {
+        "passed": 10,
+        "due": 10,
+        "total": 10
+      },
+      "determinism": {
+        "passed": 4,
+        "due": 4,
+        "total": 4
+      },
+      "checkpoints": {
+        "passed": 5,
+        "due": 5,
+        "total": 5
+      },
+      "ecology": {
+        "passed": 8,
+        "due": 8,
+        "total": 8
+      },
+      "robustness": {
+        "passed": 9,
+        "due": 9,
+        "total": 9
+      },
+      "performance": {
+        "passed": 2,
+        "due": 2,
+        "total": 2
+      },
+      "distributable": {
+        "passed": 1,
+        "due": 2,
+        "total": 2
+      },
+      "ui": {
+        "passed": 2,
+        "due": 2,
+        "total": 2
+      }
+    },
+    "metrics": {
+      "ticks_per_second": 175.9,
+      "benchmark_mean_population": 2744,
+      "self_reported_ticks_per_second": 180.00887098116905
+    },
+    "balance": {
+      "fixed": {
+        "score": 4,
+        "coexistence": 0.0,
+        "median_first_extinction_tick": 400.0,
+        "mean_population": 41,
+        "runs": 6,
+        "runs_failed": 0,
+        "runs_timed_out": 0,
+        "time_limit_seconds": 300,
+        "ticks": 10000
+      },
+      "demo": {
+        "score": 12,
+        "coexistence": 0.0,
+        "median_first_extinction_tick": 1200.0,
+        "mean_population": 136,
+        "runs": 6,
+        "runs_failed": 0,
+        "runs_timed_out": 0,
+        "time_limit_seconds": 900,
+        "ticks": 10000
+      }
+    },
+    "done_tasks": 28,
+    "timestamp": "2026-11-21T04:07:08.601657+00:00"
+  },
+  "evaluations_failed": 0,
+  "reported_total_tokens": 109185169,
+  "reported_input_tokens": 6094510,
+  "reported_cached_input_tokens": 102169472,
+  "reported_output_tokens": 921187,
+  "reported_total_cost_usd": null,
+  "phases_without_tokens": 0,
+  "phases_without_cost": 84,
+  "phases_usage_estimated": 0,
+  "wall_seconds_agent_calls": 24245.44,
+  "unreported_usage_warning": true,
+  "tasks": {
+    "TASK-001": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 429.0
+    },
+    "TASK-002": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 358.4
+    },
+    "TASK-003": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 533.2
+    },
+    "TASK-004": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 392.0
+    },
+    "TASK-005": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 472.9
+    },
+    "TASK-006": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 548.1
+    },
+    "TASK-007": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 494.8
+    },
+    "TASK-008": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 726.9
+    },
+    "TASK-009": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 533.5
+    },
+    "TASK-010": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 667.3
+    },
+    "TASK-011": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 641.2
+    },
+    "TASK-012": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 733.5
+    },
+    "TASK-013": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 613.2
+    },
+    "TASK-014": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 812.2
+    },
+    "TASK-015": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 684.9
+    },
+    "TASK-016": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 805.8
+    },
+    "TASK-017": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 732.2
+    },
+    "TASK-018": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 876.3
+    },
+    "TASK-019": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 978.2
+    },
+    "TASK-020": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 733.0
+    },
+    "TASK-021": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 985.5
+    },
+    "TASK-022": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1135.8
+    },
+    "TASK-023": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1239.5
+    },
+    "TASK-024": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1622.7
+    },
+    "TASK-025": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 2076.8
+    },
+    "TASK-026": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1321.9
+    },
+    "TASK-027": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1796.8
+    },
+    "TASK-028": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 1299.6
+    }
+  },
+  "evaluations": [
+    {
+      "label": "TASK-001",
+      "commit": "9286bfe9b06f95aab6b15f6b3dca7e68039f71e7",
+      "eval_version": 6,
+      "passed": 0,
+      "due": 0,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 0,
+          "due": 0,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 1,
+      "timestamp": "2026-11-20T08:29:22.063793+00:00"
+    },
+    {
+      "label": "TASK-002",
+      "commit": "72e5ce161722678096acbeee3c2bd350869ab682",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 2,
+      "timestamp": "2026-11-20T08:35:22.550459+00:00"
+    },
+    {
+      "label": "TASK-003",
+      "commit": "8daa62664bfe39b8a1c1c8d94314130834d8270c",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 3,
+      "timestamp": "2026-11-20T08:44:35.077675+00:00"
+    },
+    {
+      "label": "TASK-004",
+      "commit": "579bdee2736c6bb3dd0df9d108d03946671adb95",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 4,
+      "timestamp": "2026-11-20T08:51:31.522483+00:00"
+    },
+    {
+      "label": "TASK-005",
+      "commit": "c2a48ec71f6369884d37feb9855b49b45a45ca4c",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 5,
+      "timestamp": "2026-11-20T08:59:50.050514+00:00"
+    },
+    {
+      "label": "TASK-006",
+      "commit": "625a38d98590495cb71e0df28c0a12aba9caeb92",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 6,
+      "timestamp": "2026-11-20T09:09:22.866127+00:00"
+    },
+    {
+      "label": "TASK-007",
+      "commit": "43566c393f8eed63a36716285a70a39a339aac56",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 7,
+      "timestamp": "2026-11-20T09:18:26.660001+00:00"
+    },
+    {
+      "label": "TASK-008",
+      "commit": "796741692b810dad1d2db742673b5feeca4cedac",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 8,
+      "timestamp": "2026-11-20T12:00:04.677977+00:00"
+    },
+    {
+      "label": "TASK-009",
+      "commit": "b680686daf7abda023a94f25f90fd1cbf6267121",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 9,
+      "timestamp": "2026-11-20T12:09:24.317310+00:00"
+    },
+    {
+      "label": "TASK-010",
+      "commit": "1ebf43a080378e4ac180f8dfef758e7a6843b72b",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 10,
+      "timestamp": "2026-11-20T12:21:00.029352+00:00"
+    },
+    {
+      "label": "TASK-011",
+      "commit": "8e2f5adb1d969b596b1a2fbb1182ae8ffc99c036",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 11,
+      "timestamp": "2026-11-20T12:32:06.814256+00:00"
+    },
+    {
+      "label": "TASK-012",
+      "commit": "d9f23d9b8f754d551e4dc6fe65f0090349c558fa",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 12,
+      "timestamp": "2026-11-20T12:44:45.888926+00:00"
+    },
+    {
+      "label": "TASK-013",
+      "commit": "fcc7c51d82ffec8943a275aed1bffe005ca8cc29",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 13,
+      "timestamp": "2026-11-20T12:55:24.743056+00:00"
+    },
+    {
+      "label": "TASK-014",
+      "commit": "ccad586c7b56c12146a1dab760a4f327b1b0f3cd",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 14,
+      "timestamp": "2026-11-20T13:09:23.334984+00:00"
+    },
+    {
+      "label": "TASK-015",
+      "commit": "db7124920e0c72cc88eb4fb40092aebd5e48f3b1",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 15,
+      "timestamp": "2026-11-20T13:21:14.271699+00:00"
+    },
+    {
+      "label": "TASK-016",
+      "commit": "5fdc8c7ed88bf5dc8439840f3744769f6be96d07",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 16,
+      "timestamp": "2026-11-20T17:02:27.443858+00:00"
+    },
+    {
+      "label": "TASK-017",
+      "commit": "0163dbc85fbfa365fb84ce2fe33c354ced4b81c1",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 17,
+      "timestamp": "2026-11-20T17:15:06.394922+00:00"
+    },
+    {
+      "label": "TASK-018",
+      "commit": "f595c7f42072790e732e1b299a50df959f049c6d",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": {
+        "fixed": {
+          "score": 0,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": null,
+          "mean_population": null,
+          "runs": 6,
+          "runs_failed": 6,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 18,
+      "timestamp": "2026-11-20T17:30:09.100859+00:00"
+    },
+    {
+      "label": "TASK-019",
+      "commit": "716bdd38dbdc89a5238d9f761cf0edebed74deba",
+      "eval_version": 6,
+      "passed": 31,
+      "due": 32,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 9,
+          "due": 9,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 804.8,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 806.2291001734255
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 19,
+      "timestamp": "2026-11-20T17:46:53.678924+00:00"
+    },
+    {
+      "label": "TASK-020",
+      "commit": "ca98db7e7da4e87afb578f3edda1bdd87d7cec75",
+      "eval_version": 6,
+      "passed": 31,
+      "due": 32,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 9,
+          "due": 9,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 732.4,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 795.64523208136
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 20,
+      "timestamp": "2026-11-20T17:59:40.755541+00:00"
+    },
+    {
+      "label": "TASK-021",
+      "commit": "199acd44f02a5022c61a57e724df3a73fa1540e5",
+      "eval_version": 6,
+      "passed": 32,
+      "due": 33,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 750.8,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 815.8956045256097
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 21,
+      "timestamp": "2026-11-20T18:16:41.127975+00:00"
+    },
+    {
+      "label": "TASK-022",
+      "commit": "986b0b5c994e38cd583c683ce462553276dad258",
+      "eval_version": 6,
+      "passed": 37,
+      "due": 38,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 734.4,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 797.8272483328343
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 22,
+      "timestamp": "2026-11-20T22:05:10.807184+00:00"
+    },
+    {
+      "label": "TASK-023",
+      "commit": "80cc9ae4e3250797ba5341c775459d3f66e7eca7",
+      "eval_version": 6,
+      "passed": 39,
+      "due": 40,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 732.3,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 795.1949043783296
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 23,
+      "timestamp": "2026-11-20T22:26:26.260408+00:00"
+    },
+    {
+      "label": "TASK-024",
+      "commit": "5de67ecf97e9acc97ddbb17f837c63b29b9e1cdb",
+      "eval_version": 6,
+      "passed": 39,
+      "due": 40,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 734.0,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 796.8052613625107
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 24,
+      "timestamp": "2026-11-20T22:54:15.753762+00:00"
+    },
+    {
+      "label": "TASK-025",
+      "commit": "94a834928a41b1a47d851a630be8ff6a02293451",
+      "eval_version": 6,
+      "passed": 39,
+      "due": 40,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 737.8,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 800.4060449193795
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 25,
+      "timestamp": "2026-11-20T23:29:39.642520+00:00"
+    },
+    {
+      "label": "TASK-026",
+      "commit": "bcd936c9da1a4fa39cf573e83fe4309efaf1fa0d",
+      "eval_version": 6,
+      "passed": 40,
+      "due": 41,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 7,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 888.0,
+        "benchmark_mean_population": 2320,
+        "self_reported_ticks_per_second": 981.9243053405959
+      },
+      "balance": {
+        "fixed": {
+          "score": 1,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 100.0,
+          "mean_population": 443,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 26,
+      "timestamp": "2026-11-21T03:13:03.552181+00:00"
+    },
+    {
+      "label": "TASK-027",
+      "commit": "0a5737ed4ffeb33b061151e57cab057b7080151a",
+      "eval_version": 6,
+      "passed": 41,
+      "due": 41,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 8,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 175.4,
+        "benchmark_mean_population": 2744,
+        "self_reported_ticks_per_second": 179.55061146481432
+      },
+      "balance": {
+        "fixed": {
+          "score": 4,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 400.0,
+          "mean_population": 41,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": null
+      },
+      "done_tasks": 27,
+      "timestamp": "2026-11-21T03:43:46.105017+00:00"
+    },
+    {
+      "label": "TASK-028",
+      "commit": "970036082c16677fb62bba23426f77b798b69e76",
+      "eval_version": 6,
+      "passed": 41,
+      "due": 42,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 8,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 2,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 175.1,
+        "benchmark_mean_population": 2744,
+        "self_reported_ticks_per_second": 179.1829286049784
+      },
+      "balance": {
+        "fixed": {
+          "score": 4,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 400.0,
+          "mean_population": 41,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": {
+          "score": 12,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 1200.0,
+          "mean_population": 136,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 900,
+          "ticks": 10000
+        }
+      },
+      "done_tasks": 28,
+      "timestamp": "2026-11-21T04:06:16.797430+00:00"
+    },
+    {
+      "label": "final",
+      "commit": "970036082c16677fb62bba23426f77b798b69e76",
+      "eval_version": 6,
+      "passed": 41,
+      "due": 42,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 10,
+          "due": 10,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 4,
+          "due": 4,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 5,
+          "due": 5,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 8,
+          "due": 8,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 9,
+          "due": 9,
+          "total": 9
+        },
+        "performance": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 2,
+          "total": 2
+        },
+        "ui": {
+          "passed": 2,
+          "due": 2,
+          "total": 2
+        }
+      },
+      "metrics": {
+        "ticks_per_second": 175.9,
+        "benchmark_mean_population": 2744,
+        "self_reported_ticks_per_second": 180.00887098116905
+      },
+      "balance": {
+        "fixed": {
+          "score": 4,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 400.0,
+          "mean_population": 41,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 300,
+          "ticks": 10000
+        },
+        "demo": {
+          "score": 12,
+          "coexistence": 0.0,
+          "median_first_extinction_tick": 1200.0,
+          "mean_population": 136,
+          "runs": 6,
+          "runs_failed": 0,
+          "runs_timed_out": 0,
+          "time_limit_seconds": 900,
+          "ticks": 10000
+        }
+      },
+      "done_tasks": 28,
+      "timestamp": "2026-11-21T04:07:08.601657+00:00"
+    }
+  ]
+}

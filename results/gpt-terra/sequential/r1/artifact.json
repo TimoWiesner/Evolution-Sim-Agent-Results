@@ -1,0 +1,15 @@
+{
+  "asset": "evosim-gpt-terra-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "a66d17c23282d17876d851b3607669c99b5b28ae6f5c6b7d4d90c902937020b5",
+  "size_bytes": 622800,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png"
+  ],
+  "release_tag": "gpt-terra-sequential-r1",
+  "source_commit": "10fdfdd74b1eeaab453b213092822bb715bf5767",
+  "packaged": "2026-11-23T19:05:46.722682+00:00"
+}

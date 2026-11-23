@@ -1,0 +1,12 @@
+{
+  "asset": "evosim-gpt-astra-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "327b4c400a1f474233799112eb339159b8da997045c6b2314a53c473d32f2344",
+  "size_bytes": 189511,
+  "build_ok": true,
+  "self_contained": false,
+  "self_contained_detail": "exit status 2: {\"name\":\"evosim\",\"version\":\"0.1.0\",\"contract\":1}\nevosim: expected exactly one supported command\n\nEvolution Simulation\n\nUsage: evosim <command>\n\nCommands:\n  version    Print version and interface contract as JSON\n  help       Show this help (also --help, -h)",
+  "screenshots": [],
+  "release_tag": "gpt-astra-sequential-r1",
+  "source_commit": "51e56d61ca420a60cdc96448db8a0b77b76f3e06",
+  "packaged": "2026-11-23T19:06:29.200225+00:00"
+}

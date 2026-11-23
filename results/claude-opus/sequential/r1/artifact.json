@@ -1,0 +1,18 @@
+{
+  "asset": "evosim-claude-opus-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "9e7514b3946abe654c3802f0a37de1c3359878c23ce86c38d8c5163de9dadd34",
+  "size_bytes": 896861,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png",
+    "inspector.png",
+    "setup.png",
+    "world-zoomed.png"
+  ],
+  "release_tag": "claude-opus-sequential-r1",
+  "source_commit": "c38f44ac7b6f086b1613f98f93debc32401b84c5",
+  "packaged": "2026-11-23T19:05:03.838912+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "evosim-claude-sonnet-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "cc873d0ac2cb256d085f24d60f402b2708b5cf21f8796dcdfc3b45f2da888087",
+  "size_bytes": 564622,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png",
+    "inspector.png",
+    "setup.png"
+  ],
+  "release_tag": "claude-sonnet-sequential-r1",
+  "source_commit": "7ddc6f9c1100af25818b96fb9a1c0332f5ce8fb6",
+  "packaged": "2026-11-23T19:05:19.648684+00:00"
+}

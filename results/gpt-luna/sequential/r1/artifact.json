@@ -1,0 +1,15 @@
+{
+  "asset": "evosim-gpt-luna-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "b1098c9d92ca16129f0bb3c3b47739367ae101fa0ac81e9cc5b2b2566bf38dbb",
+  "size_bytes": 608502,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png"
+  ],
+  "release_tag": "gpt-luna-sequential-r1",
+  "source_commit": "3ec1e319d3d738bfe2ed8a16e78fd79a40f01c43",
+  "packaged": "2026-11-23T19:05:39.031583+00:00"
+}

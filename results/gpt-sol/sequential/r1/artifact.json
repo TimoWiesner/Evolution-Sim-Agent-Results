@@ -1,0 +1,16 @@
+{
+  "asset": "evosim-gpt-sol-sequential-r1-linux-x86_64.tar.gz",
+  "sha256": "b21f6100f12028ee79ec619bd27488af75ad2d8b9561337f93ba0ab8d0687327",
+  "size_bytes": 880048,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png",
+    "inspector.png"
+  ],
+  "release_tag": "gpt-sol-sequential-r1",
+  "source_commit": "970036082c16677fb62bba23426f77b798b69e76",
+  "packaged": "2026-11-23T19:06:04.784192+00:00"
+}

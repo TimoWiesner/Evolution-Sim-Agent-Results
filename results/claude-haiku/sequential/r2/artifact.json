@@ -1,0 +1,15 @@
+{
+  "asset": "evosim-claude-haiku-sequential-r2-linux-x86_64.tar.gz",
+  "sha256": "d1b8674f104a86c6318e4f6017850662e948e4e869eef999d9bc9ba6e45a91ba",
+  "size_bytes": 522607,
+  "build_ok": true,
+  "self_contained": true,
+  "self_contained_detail": "",
+  "screenshots": [
+    "main.png",
+    "charts.png"
+  ],
+  "release_tag": "claude-haiku-sequential-r2",
+  "source_commit": "dee49769790a0606bf3873957880ce4548b25c41",
+  "packaged": "2026-11-23T19:05:28.680772+00:00"
+}

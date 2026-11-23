@@ -1,0 +1,430 @@
+{
+  "workers": 1,
+  "elapsed_seconds": 2113.67,
+  "parallelism": 1.0,
+  "merges": 0,
+  "merge_conflicts": 0,
+  "merge_conflict_files": 0,
+  "merges_failed": 0,
+  "merge_agent_seconds": 0,
+  "rate_limit_hits": 2,
+  "rate_limit_wait_seconds": 1475,
+  "infra_failures": 0,
+  "infra_wait_seconds": 0,
+  "uncounted_calls": 2,
+  "uncounted_seconds": 128.07,
+  "uncounted_tokens": 0,
+  "interruptions": 0,
+  "cli_versions": [
+    "codex-cli 0.164.0"
+  ],
+  "phases_delegated": 0,
+  "subagents_started": null,
+  "benchmark_version": 1,
+  "profile": "gpt-astra",
+  "track": "sequential",
+  "run_id": "r1",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.164.0",
+  "model": "gpt-6-astra",
+  "reported_models": [],
+  "isolation": "container",
+  "harness_commit": "ead9cc0629d83b398038254b5174f75aadd9e62b",
+  "host": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "cpu_count": 12,
+    "cpu_model": "AMD Ryzen 5 7500F 6-Core Processor",
+    "ram_gb": 31.0
+  },
+  "created": "2026-11-21T07:18:46.818053+00:00",
+  "finished": true,
+  "tasks_total": 28,
+  "status_counts": {
+    "PENDING": 26,
+    "ACTIVE": 0,
+    "DONE": 1,
+    "BLOCKED": 1
+  },
+  "blocked_review_gaps": 1,
+  "blocked_errors": 0,
+  "completed_ratio": 0.0357,
+  "first_cycle_pass_ratio": 1.0,
+  "phases_attempted": 15,
+  "phases_failed": 0,
+  "failure_classes": {},
+  "operator_interventions": 1,
+  "evaluation": {
+    "label": "final",
+    "commit": "51e56d61ca420a60cdc96448db8a0b77b76f3e06",
+    "eval_version": 6,
+    "passed": 4,
+    "due": 4,
+    "total": 42,
+    "categories": {
+      "contract": {
+        "passed": 3,
+        "due": 3,
+        "total": 10
+      },
+      "determinism": {
+        "passed": 0,
+        "due": 0,
+        "total": 4
+      },
+      "checkpoints": {
+        "passed": 0,
+        "due": 0,
+        "total": 5
+      },
+      "ecology": {
+        "passed": 0,
+        "due": 0,
+        "total": 8
+      },
+      "robustness": {
+        "passed": 0,
+        "due": 0,
+        "total": 9
+      },
+      "performance": {
+        "passed": 0,
+        "due": 0,
+        "total": 2
+      },
+      "distributable": {
+        "passed": 1,
+        "due": 1,
+        "total": 2
+      },
+      "ui": {
+        "passed": 0,
+        "due": 0,
+        "total": 2
+      }
+    },
+    "metrics": {},
+    "balance": null,
+    "done_tasks": 2,
+    "timestamp": "2026-11-21T17:44:43.324804+00:00"
+  },
+  "evaluations_failed": 0,
+  "reported_total_tokens": 5845851,
+  "reported_input_tokens": 605848,
+  "reported_cached_input_tokens": 5164800,
+  "reported_output_tokens": 75203,
+  "reported_total_cost_usd": null,
+  "phases_without_tokens": 0,
+  "phases_without_cost": 15,
+  "phases_usage_estimated": 0,
+  "wall_seconds_agent_calls": 2113.67,
+  "unreported_usage_warning": true,
+  "tasks": {
+    "TASK-001": {
+      "status": "DONE",
+      "cycles": 1,
+      "phases_attempted": 3,
+      "phases_failed": 0,
+      "agent_seconds": 425.7
+    },
+    "TASK-002": {
+      "status": "BLOCKED",
+      "cycles": 4,
+      "phases_attempted": 12,
+      "phases_failed": 0,
+      "agent_seconds": 1688.0
+    },
+    "TASK-003": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-004": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-005": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-006": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-007": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-008": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-009": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-010": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-011": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-012": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-013": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-014": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-015": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-016": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-017": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-018": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-019": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-020": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-021": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-022": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-023": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-024": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-025": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-026": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-027": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    },
+    "TASK-028": {
+      "status": "PENDING",
+      "cycles": 0,
+      "phases_attempted": 0,
+      "phases_failed": 0,
+      "agent_seconds": 0
+    }
+  },
+  "evaluations": [
+    {
+      "label": "TASK-001",
+      "commit": "751ea2215336caa084a7dc280752fad9a3a90319",
+      "eval_version": 6,
+      "passed": 0,
+      "due": 0,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 0,
+          "due": 0,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 1,
+      "timestamp": "2026-11-21T07:25:53.951808+00:00"
+    },
+    {
+      "label": "final",
+      "commit": "51e56d61ca420a60cdc96448db8a0b77b76f3e06",
+      "eval_version": 6,
+      "passed": 4,
+      "due": 4,
+      "total": 42,
+      "categories": {
+        "contract": {
+          "passed": 3,
+          "due": 3,
+          "total": 10
+        },
+        "determinism": {
+          "passed": 0,
+          "due": 0,
+          "total": 4
+        },
+        "checkpoints": {
+          "passed": 0,
+          "due": 0,
+          "total": 5
+        },
+        "ecology": {
+          "passed": 0,
+          "due": 0,
+          "total": 8
+        },
+        "robustness": {
+          "passed": 0,
+          "due": 0,
+          "total": 9
+        },
+        "performance": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        },
+        "distributable": {
+          "passed": 1,
+          "due": 1,
+          "total": 2
+        },
+        "ui": {
+          "passed": 0,
+          "due": 0,
+          "total": 2
+        }
+      },
+      "metrics": {},
+      "balance": null,
+      "done_tasks": 2,
+      "timestamp": "2026-11-21T17:44:43.324804+00:00"
+    }
+  ]
+}
